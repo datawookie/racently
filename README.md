@@ -1,5 +1,15 @@
 # Wrapper for @racently API
 
+## Installation
+
+Install directly from GitHub.
+
+```
+devtools::install_github("datawookie/racently")
+```
+
+## Usage
+
 There are currently only two endpoints available.
 
 The `search_athlete()` function allows you to search for an athlete by name. The function accepts a regular expression, so there's quite a lot of flexibility in the way that the name can be specified.
